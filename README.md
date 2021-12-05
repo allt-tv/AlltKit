@@ -1,6 +1,6 @@
 # AlltKit
 
-The `AlltKit` package contains APIs for iOS & tvOS applications to interact with the Allt network.
+The `AlltKit` package is a Swift Package containing APIs for iOS & tvOS applications to interact with the Allt network.  To add `AlltKit` to your Xcode project select File -> Add Packages... and enter the package URL: https://github.com/allt-tv/AlltKit and then add the package to your App target.
 
 Three primary classes are provided:
  * AlltServer - this class is for Media Players to transmit their content status over the Allt network.  Typically a tvOS media player app would instantiate an object of this class, and provide updates to the object when the content the user is watching changes.
