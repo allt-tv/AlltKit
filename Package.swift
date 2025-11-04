@@ -14,7 +14,7 @@ let package = Package(
             targets: ["AlltKit"])
     ],
     targets: [
-                                             .binaryTarget(name: "AlltKit", url: "https://github.com/allt-tv/AlltKit/releases/download/2.0.3-beta/AlltKit-2.0.3-beta.zip",
-                            checksum: "ae941136231879672ba74523089fd4a978c32211e152ce8ffe2bf79aaf5f256d"),
+                                              .binaryTarget(name: "AlltKit", url: "https://github.com/allt-tv/AlltKit/releases/download/2.0.4-beta/AlltKit-2.0.4-beta.zip",
+                            checksum: "9cd17da76bf7cce067f79c45a4c231f8deb1acccd81de0bb2d50b653bdb9819e"),
     ]
 )
